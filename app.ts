@@ -1,14 +1,8 @@
 
-type djur = string;
 
 const djur = ["apa", "orangutang", "gorilla", "get", "giraff"];
 console.log(djur);
 
-type traits = {
-    name: string,
-    age: number,
-    isOld: boolean,
-}
 
 const traits = {
     name: "Klas",
