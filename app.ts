@@ -14,3 +14,6 @@ const traits = {
     age: 65,
     isOld: true,
 }
+
+
+console.log(traits);
