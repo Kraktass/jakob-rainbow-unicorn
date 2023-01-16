@@ -6,8 +6,8 @@ var traits = {
     isOld: true
 };
 console.log(traits);
-var greeting = "Jakob";
 function greet() {
-    return "Hello, " + greeting;
+    return "Jakob";
 }
+var greeting = greet();
 console.log("hej", greeting);

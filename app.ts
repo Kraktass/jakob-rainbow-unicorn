@@ -20,10 +20,12 @@ console.log(traits);
 
 
 
-const greeting: string = "Jakob";
+
 
 function greet(): string {
-    return "Hello, " + greeting;
+    return "Jakob";
   }
+
+ const greeting = greet(); 
 
 console.log("hej", greeting);
