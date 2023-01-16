@@ -26,6 +26,6 @@ function greet(): string {
     return "Jakob";
   }
 
- const greeting = greet(); 
+ const greeting = "Hej " + greet(); 
 
-console.log("hej", greeting);
+console.log(greeting);

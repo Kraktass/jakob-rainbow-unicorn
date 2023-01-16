@@ -9,5 +9,5 @@ console.log(traits);
 function greet() {
     return "Jakob";
 }
-var greeting = greet();
-console.log("hej", greeting);
+var greeting = "Hej " + greet();
+console.log(greeting);
