@@ -6,8 +6,10 @@ var traits = {
     isOld: true
 };
 console.log(traits);
-function greet() {
-    return "Jakob";
+var greeting = function (x) {
+    return ("Hej ".concat(x));
+};
+console.log(greeting("Jakob"));
+for (var i = 0; i < djur.length; i++) {
+    console.log(greeting(djur[i]));
 }
-var greeting = "Hej " + greet();
-console.log(greeting);

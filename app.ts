@@ -2,11 +2,7 @@
 
 
 const djur = ["apa", "orangutang", "gorilla", "get", "giraff"];
-
 console.log(djur);
-
-
-
 
 
 const traits = {
@@ -14,18 +10,19 @@ const traits = {
     age: 65,
     isOld: true,
 }
-
-
 console.log(traits);
 
 
 
 
 
-function greet(): string {
-    return "Jakob";
-  }
+let greeting = function (x) {
+    return (`Hej ${x}`)
+}
+console.log(greeting("Jakob"));
 
- const greeting = "Hej " + greet(); 
 
-console.log(greeting);
+for (let i = 0; i < djur.length; i++) {
+    console.log(greeting(djur[i]));
+}
+
