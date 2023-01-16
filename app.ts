@@ -17,3 +17,13 @@ const traits = {
 
 
 console.log(traits);
+
+
+
+const greeting: string = "Jakob";
+
+function greet(): string {
+    return "Hello, " + greeting;
+  }
+
+console.log("hej", greeting);
